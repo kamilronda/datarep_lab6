@@ -1,0 +1,32 @@
+<!--Simple html document which holds two forms with assigned values,
+    that are returned on the server where one uses GET method and the other uses POST method-->
+<html>
+    <body>
+        <h1>Welcome to my web site!</h1>
+        
+        <form action="/name" target="_blank" method="GET">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Kamil">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Ronda">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+
+        <h3>Post Form</h3>
+        <form action="/name" target="_blank" method="POST">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Kamil">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Ronda">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+    </body>
+</html>
